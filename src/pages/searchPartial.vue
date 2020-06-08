@@ -1,0 +1,26 @@
+<template>
+  <div>
+    <div class="searchBar flexCenter">
+      <i class="fas fa-search"></i>
+      <span>Search</span>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+.searchBar {
+  background-color: #444444;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 8px;
+}
+
+.searchBar i {
+  margin-right: 5px;
+  color: #767676;
+}
+
+.searchBar span {
+  color: #767676;
+}
+</style>
