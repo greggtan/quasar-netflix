@@ -9,11 +9,20 @@
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "start": "nodemon server/webserver.js",
+    "startAPI": "nodemon server/APIserver.js"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
-    "quasar": "^1.0.0"
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "quasar": "^1.0.0",
+    "util": "^0.12.3"
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0",

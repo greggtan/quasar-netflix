@@ -121,7 +121,7 @@ export default {
     },
     //  findOne record using movieID (FOR NOW USE MANUAL API WRITTEN, CHANGE TO FEATHERS LATER)
     async loadMovieDetails () {
-      const dbResponse = await fetch(`http://localhost:1314/movies/${this.movieID}`)
+      const dbResponse = await fetch(`http://159.203.188.129:1314/movies/${this.movieID}`)
       const dbMovieDetails = await dbResponse.json()
 
       console.log(dbMovieDetails)

@@ -16,7 +16,7 @@
 export default {
   data(){
     return{
-      trailerSrc:"http://localhost:1313/client/views/episodeImages/trailerImg.jpg"
+      trailerSrc:"http://http://159.203.188.129:1313/public/episodeImages/trailerImg.jpg"
     }
   }
 }
