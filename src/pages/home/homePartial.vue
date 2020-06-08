@@ -512,8 +512,8 @@ export default {
       this.wrapperType = wrapperType
       this.category = category
 
-      const dbResponse = await fetch('http://localhost:1314/movies')
-      // const dbResponse = await fetch('http://159.203.188.129:1314/movies')
+      // const dbResponse = await fetch('http://localhost:1314/movies')
+      const dbResponse = await fetch('http://159.203.188.129:1314/movies')
       console.log(dbResponse);
       const dbMovieDetails = await dbResponse.json()
 
